@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Gimbergenas" name="game.level.BloodTest" skipped="0" tests="8" time="0.535" timestamp="2020-12-01T21:36:24">
+<testsuite errors="0" failures="0" hostname="Gimbergenas" name="game.level.BloodTest" skipped="0" tests="8" time="0.496" timestamp="2020-12-01T22:25:39">
   <properties>
     <property name="libs.spring-framework300.classpath" value="D:\Program Files\NetBeans-12.1\netbeans\platform\modules\org-apache-commons-logging.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\cglib-2.2.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
     <property name="javac.test.classpath" value=":build/classes:D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar:D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-4.12.jar:D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -18,12 +18,12 @@
     <property name="libs.eclipselink.javadoc" value="D:\Program Files\NetBeans-12.1\netbeans\java\modules\ext\docs\javax.persistence-2.2.1-doc.zip" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner game.level.BloodTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build\test\results\TEST-game.level.BloodTest.xml crashfile=D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build\junitvmwatcher18237869249760019194.properties propsfile=D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build\junit460603443904333417.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner game.level.BloodTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build\test\results\TEST-game.level.BloodTest.xml crashfile=D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build\junitvmwatcher7802742830157765052.properties propsfile=D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build\junit11230961808423552512.properties" />
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
     <property name="javadoc.notree" value="false" />
-    <property name="basedir" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master" />
+    <property name="basedir" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master" />
     <property name="application.vendor" value="rafiul islam" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
@@ -41,7 +41,7 @@
     <property name="sun.java2d.noddraw" value="true" />
     <property name="sun.zip.disableMemoryMapping" value="true" />
     <property name="libs.maven-dependencies.maven-pom" value="" />
-    <property name="jnidispatch.path" value="C:\Users\KOmpas\AppData\Local\Temp\jna--2071464839\jna11418227874438519438.dll" />
+    <property name="jnidispatch.path" value="C:\Users\KOmpas\AppData\Local\Temp\jna--2071464839\jna7183003681924633983.dll" />
     <property name="libs.jsp-compilation.javadoc" value="" />
     <property name="libs.primefaces.javadoc" value="" />
     <property name="libs.jsf12.src" value="" />
@@ -63,7 +63,7 @@
     <property name="libs.testng.maven-pom" value="" />
     <property name="org.openide.version" value="deprecated" />
     <property name="test.includes" value="game/level/BloodTest.java" />
-    <property name="ant.file.SFC-The_Game" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build.xml" />
+    <property name="ant.file.SFC-The_Game" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build.xml" />
     <property name="run.classpath" value=":build/classes" />
     <property name="libs.jaxb.src" value="" />
     <property name="test.src.dir" value="test" />
@@ -164,7 +164,7 @@
     <property name="libs.restapi.javadoc" value="" />
     <property name="libs.jpa20-persistence.src" value="" />
     <property name="endorsed.classpath" value="" />
-    <property name="javac.test.sourcepath" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build\empty" />
+    <property name="javac.test.sourcepath" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build\empty" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="includes" value="**" />
     <property name="libs.jsf12.javadoc" value="D:\Program Files\NetBeans-12.1\netbeans\enterprise\docs\javaee-doc-api.jar" />
@@ -193,7 +193,7 @@
     <property name="libs.jsp-compilation-syscp.classpath" value="D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant.jar;D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\jstl-impl.jar;D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="libs.jsp-compilation.classpath" value="D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant.jar;D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\jstl-api.jar;D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant-launcher.jar" />
     <property name="libs.javaee-api-6.0.classpath" value="D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
-    <property name="javac.includesfile.binary" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\null409931004" />
+    <property name="javac.includesfile.binary" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\null554424430" />
     <property name="libs.javaee-api-7.0.classpath" value="D:\Program Files\NetBeans-12.1\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.restapi.maven-pom" value="" />
@@ -211,7 +211,7 @@
     <property name="javac.source" value="1.8" />
     <property name="java.version.date" value="2020-10-20" />
     <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1" />
-    <property name="work.dir" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master" />
+    <property name="work.dir" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master" />
     <property name="javac.test.compilerargs" value="" />
     <property name="jna.boot.library.name" value="jnidispatch-nb" />
     <property name="libs.PostgreSQLDriver.classpath" value="D:\Program Files\NetBeans-12.1\netbeans\ide\modules\ext\postgresql-42.2.10.jar" />
@@ -238,7 +238,7 @@
     <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
     <property name="do.archive" value="true" />
     <property name="libs.struts.maven-pom" value="" />
-    <property name="built-jar.properties" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build\built-jar.properties" />
+    <property name="built-jar.properties" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build\built-jar.properties" />
     <property name="nb.native.filechooser" value="false" />
     <property name="libs.testng.src" value="" />
     <property name="platform.active" value="default_platform" />
@@ -275,7 +275,7 @@
     <property name="libs.graaljs.src" value="" />
     <property name="run.jvmargs" value="" />
     <property name="libs.primefaces.src" value="" />
-    <property name="ant.file" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build.xml" />
+    <property name="ant.file" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build.xml" />
     <property name="libs.struts.src" value="" />
     <property name="path.separator" value=";" />
     <property name="libs.JAXB-ENDORSED.classpath" value="D:\Program Files\NetBeans-12.1\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
@@ -304,15 +304,15 @@
     <property name="libs.junit_4.javadoc" value="D:\Program Files\NetBeans-12.1\netbeans\platform\docs\junit-4.12-javadoc.jar" />
     <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="libs.spring-webmvc4.0.src" value="" />
-    <property name="ant.file.SFC-The_Game-impl" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\nbproject\build-impl.xml" />
+    <property name="ant.file.SFC-The_Game-impl" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\nbproject\build-impl.xml" />
     <property name="sun.java2d.dpiaware" value="true" />
     <property name="main.class.available" value="true" />
     <property name="libs.jsf20.javadoc" value="D:\Program Files\NetBeans-12.1\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="netbeans.autoupdate.version" value="1.23" />
-    <property name="empty.dir" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build\empty" />
+    <property name="empty.dir" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build\empty" />
     <property name="netbeans.user" value="C:\Users\KOmpas\AppData\Roaming\NetBeans\12.1" />
-    <property name="javac.includes.binary" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes\game\level\BloodTest.class" />
+    <property name="javac.includes.binary" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes\game\level\BloodTest.class" />
     <property name="file.separator" value="\" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="javadoc.additionalparam" value="" />
@@ -353,7 +353,7 @@
     <property name="libs.javaee-api-6.0.src" value="" />
     <property name="javac.includes" value="game/level/BloodTest.java" />
     <property name="netbeans.autoupdate.country" value="US" />
-    <property name="java.class.path" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build\classes;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-4.12.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes;D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant-launcher.jar;D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant.jar;D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant-junit.jar;D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build\classes;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\junit-4.12.jar;D:\Program Files\NetBeans-12.1\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes;D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant-launcher.jar;D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant.jar;D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant-junit.jar;D:\Program Files\NetBeans-12.1\netbeans\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="ap.supported.internal" value="true" />
@@ -393,7 +393,7 @@
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
-    <property name="user.dir" value="D:\Programavimas\SFC-The-Game-master\SFC-The-Game-master" />
+    <property name="user.dir" value="D:\Programavimas\Dukes-of-the-Realm-master\Testavimas\SFC-The-Game-master\SFC-The-Game-master" />
     <property name="platform.java" value="C:\Program Files\Java\jdk-15.0.1/bin/java" />
     <property name="application.args" value="" />
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
@@ -409,14 +409,14 @@
     <property name="libs.jsp-compiler.classpath" value="D:\Program Files\NetBeans-12.1\netbeans\enterprise\ant\extra\jspcompile.jar" />
     <property name="annotation.processing.run.all.processors" value="true" />
   </properties>
-  <testcase classname="game.level.BloodTest" name="testDraw" time="0.265" />
-  <testcase classname="game.level.BloodTest" name="testKeyPressed" time="0.069" />
-  <testcase classname="game.level.BloodTest" name="testMouseClickd2" time="0.022" />
-  <testcase classname="game.level.BloodTest" name="testMouseClickd" time="0.018" />
-  <testcase classname="game.level.BloodTest" name="testFinalize" time="0.019" />
-  <testcase classname="game.level.BloodTest" name="testKeyPressedWrong" time="0.029" />
-  <testcase classname="game.level.BloodTest" name="testResume" time="0.02" />
-  <testcase classname="game.level.BloodTest" name="testUpdate" time="0.021" />
+  <testcase classname="game.level.BloodTest" name="testDraw" time="0.25" />
+  <testcase classname="game.level.BloodTest" name="testKeyPressed" time="0.063" />
+  <testcase classname="game.level.BloodTest" name="testMouseClickd2" time="0.018" />
+  <testcase classname="game.level.BloodTest" name="testMouseClickd" time="0.016" />
+  <testcase classname="game.level.BloodTest" name="testFinalize" time="0.017" />
+  <testcase classname="game.level.BloodTest" name="testKeyPressedWrong" time="0.027" />
+  <testcase classname="game.level.BloodTest" name="testResume" time="0.018" />
+  <testcase classname="game.level.BloodTest" name="testUpdate" time="0.018" />
   <system-out><![CDATA[draw
 keyPressed
 mouseClickd
@@ -426,19 +426,19 @@ keyPressed
 resume
 update
 ]]></system-out>
-  <system-err><![CDATA[Dec 01, 2020 11:36:24 PM game.level.Blood finalize
+  <system-err><![CDATA[Dec 02, 2020 12:25:39 AM game.level.Blood finalize
 SEVERE: obj released as garbage
-Dec 01, 2020 11:36:24 PM game.level.Blood finalize
+Dec 02, 2020 12:25:40 AM game.level.Blood finalize
 SEVERE: obj released as garbage
-Dec 01, 2020 11:36:24 PM game.level.Blood finalize
+Dec 02, 2020 12:25:40 AM game.level.Blood finalize
 SEVERE: obj released as garbage
-Dec 01, 2020 11:36:24 PM game.level.Blood finalize
+Dec 02, 2020 12:25:40 AM game.level.Blood finalize
 SEVERE: obj released as garbage
-Dec 01, 2020 11:36:24 PM game.level.Blood finalize
+Dec 02, 2020 12:25:40 AM game.level.Blood finalize
 SEVERE: obj released as garbage
-Dec 01, 2020 11:36:24 PM game.level.Blood finalize
+Dec 02, 2020 12:25:40 AM game.level.Blood finalize
 SEVERE: obj released as garbage
-Dec 01, 2020 11:36:24 PM game.level.Blood finalize
+Dec 02, 2020 12:25:40 AM game.level.Blood finalize
 SEVERE: obj released as garbage
 ]]></system-err>
 </testsuite>
