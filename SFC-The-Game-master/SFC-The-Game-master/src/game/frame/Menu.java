@@ -23,9 +23,11 @@ import object.structure.Square;
 public class Menu extends Window{
     private static String[] options = {"New Game","Load Game","How To Play","Training","Exit"};
     private Square[] options_pos;
-    private int now;
+    public int now;
     private Sound selectionSound;
     private Font font;
+    public boolean isFinalized = false;
+    
     public Menu(GameManager manager) {
         this.manager = manager;
         
@@ -115,6 +117,7 @@ public class Menu extends Window{
     @Override
     protected void finalize(){
         Logger.getLogger(getClass().getName()).log(Level.SEVERE,"obj released as garbage");
+        isFinalized = true;
     }
     
     private boolean isSaved(){

@@ -31,7 +31,7 @@ public class GameManager {
     */
     private int currentIndex;
     private Window currentWindow,releasedWindow;
-    private boolean exitClicked;
+    public boolean exitClicked;
     
     public GameManager() {
         exitClicked = false;
