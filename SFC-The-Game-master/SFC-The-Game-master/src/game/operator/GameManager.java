@@ -29,9 +29,13 @@ public class GameManager {
      * @param releasedWindow (Window) indicate  the released window page
      * @param exitClicked (boolean) this will fired when user pressed on exit option
     */
-    private int currentIndex;
-    private Window currentWindow,releasedWindow;
+    public int currentIndex;
+    public Window currentWindow,releasedWindow;
     public boolean exitClicked;
+    public int mousex = 0;
+    public int mousey = 0;
+    public boolean keypressed = false;
+    public boolean updateSent = false;
     
     public GameManager() {
         exitClicked = false;
@@ -119,6 +123,7 @@ public class GameManager {
     }
     
     public void update(){
+        updateSent = true;
         currentWindow.update();
     }
     public void draw(Graphics2D graph){
@@ -131,9 +136,12 @@ public class GameManager {
         currentWindow.draw(graph);
     }
     public void keyPressed(int key){
+        keypressed = true;
         currentWindow.keyPressed(key);
     }
     public void mouseClicked(int x, int y){
+        mousex = x;
+        mousey = y;
         currentWindow.mouseClickd(x, y);
     }
     public void gameExit(){
