@@ -6,10 +6,10 @@ package object.structure;
  */
 public class MotionCell extends Cell{
     
-    private int endX, endY;
-    private int centerX, centerY;
-    private int speedX,speedY;
-    private boolean up;
+    public int endX, endY;
+    public int centerX, centerY;
+    public int speedX,speedY;
+    public boolean up;
     //Constructors
     public MotionCell(){
         super();

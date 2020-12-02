@@ -38,14 +38,15 @@ public class MotionCellTest {
     @Test
     public void testSetMotion() {
         System.out.println("setMotion");
-        int endX = 0;
-        int endY = 0;
-        int speedX = 0;
-        int speedY = 0;
-        MotionCell instance = new MotionCell();
+        int endX = 10;
+        int endY = 10;
+        int speedX = 1;
+        int speedY = 1;
+        MotionCell instance = new MotionCell(1,1,3,3);
         instance.setMotion(endX, endY, speedX, speedY);
+        assertTrue(endX==instance.endX && endY==instance.endY && speedX==instance.speedX && speedY==instance.speedY);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -54,10 +55,12 @@ public class MotionCellTest {
     @Test
     public void testMove() {
         System.out.println("move");
-        MotionCell instance = new MotionCell();
+        MotionCell instance = new MotionCell(1,1,3,3);
+        instance.setMotion(3, 3, 1, 1);
         instance.move();
+        assertTrue(instance.getX()==0 && instance.getY()==0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
