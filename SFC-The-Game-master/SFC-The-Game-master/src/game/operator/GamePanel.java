@@ -20,13 +20,15 @@ import javax.swing.JPanel;
 public class GamePanel extends JPanel 
         implements Runnable, KeyListener,MouseListener{
 
-    private Thread runnerThread;
-    private GameManager manager;
-    private BufferedImage screen;
-    private Graphics2D pane;
+    public Thread runnerThread;
+    public GameManager manager;
+    public BufferedImage screen;
+    public Graphics2D pane;
     
-    private boolean gameRunning;
-    private boolean gameOver;
+    public boolean gameRunning;
+    public boolean gameOver;
+    
+    public boolean listenerAdded;
     
     public GamePanel() {
         super();
@@ -81,6 +83,7 @@ public class GamePanel extends JPanel
             runnerThread = new Thread(this);
             runnerThread.start();
         }
+//        listenerAdded = true;
     }
     
     @Override

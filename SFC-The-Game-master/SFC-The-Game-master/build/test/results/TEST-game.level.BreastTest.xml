@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="2" hostname="DESKTOP-C3CVJL4" name="game.operator.GameManagerTest" skipped="0" tests="18" time="0.917" timestamp="2020-12-02T21:19:10">
+<testsuite errors="0" failures="0" hostname="DESKTOP-C3CVJL4" name="game.level.BreastTest" skipped="0" tests="7" time="0.65" timestamp="2020-12-02T21:04:55">
   <properties>
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
     <property name="javac.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -18,7 +18,7 @@
     <property name="libs.eclipselink.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner game.operator.GameManagerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\results\TEST-game.operator.GameManagerTest.xml crashfile=E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\junitvmwatcher4210481882303448440.properties propsfile=E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\junit9283002634948316914.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner game.level.BreastTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\results\TEST-game.level.BreastTest.xml crashfile=E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\junitvmwatcher16947227837771832103.properties propsfile=E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\junit5826248707354800955.properties" />
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
@@ -63,7 +63,7 @@
     <property name="compile.on.save" value="true" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="org.openide.version" value="deprecated" />
-    <property name="test.includes" value="game/operator/GameManagerTest.java" />
+    <property name="test.includes" value="game/level/BreastTest.java" />
     <property name="ant.file.SFC-The_Game" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build.xml" />
     <property name="run.classpath" value=":build/classes" />
     <property name="libs.jaxb.src" value="" />
@@ -195,7 +195,7 @@
     <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant-launcher.jar" />
     <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
-    <property name="javac.includesfile.binary" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\null1120705421" />
+    <property name="javac.includesfile.binary" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\null1854897070" />
     <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.restapi.maven-pom" value="" />
@@ -312,7 +312,7 @@
     <property name="netbeans.autoupdate.version" value="1.23" />
     <property name="empty.dir" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\empty" />
     <property name="netbeans.user" value="C:\Users\Fartas\AppData\Roaming\NetBeans\12.0" />
-    <property name="javac.includes.binary" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes\game\operator\GameManagerTest.class" />
+    <property name="javac.includes.binary" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes\game\level\BreastTest.class" />
     <property name="file.separator" value="\" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="javadoc.additionalparam" value="" />
@@ -351,7 +351,7 @@
     <property name="libs.spring-framework500.src" value="" />
     <property name="user.properties.file" value="C:\Users\Fartas\AppData\Roaming\NetBeans\12.0\build.properties" />
     <property name="libs.javaee-api-6.0.src" value="" />
-    <property name="javac.includes" value="game/operator/GameManagerTest.java" />
+    <property name="javac.includes" value="game/level/BreastTest.java" />
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="java.class.path" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\classes;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
@@ -398,64 +398,41 @@
     <property name="libs.eclipselink.src" value="" />
     <property name="java.vm.version" value="11.0.9.1+1" />
     <property name="libs.metro.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-api-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-extra-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-extra-api-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-rt-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-tools-javadoc.jar" />
-    <property name="test.class" value="game.operator.GameManagerTest" />
+    <property name="test.class" value="game.level.BreastTest" />
     <property name="sun.awt.datatransfer.timeout" value="1000" />
     <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\ant\extra\jspcompile.jar" />
     <property name="junit.forkmode" value="perTest" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="libs.javaee-web-api-7.0.src" value="" />
   </properties>
-  <testcase classname="game.operator.GameManagerTest" name="testDraw" time="0.298">
-    <failure message="expected:&lt;java.awt.Color[r=222,g=222,b=222]&gt; but was:&lt;java.awt.Color[r=1,g=3,b=30]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;java.awt.Color[r=222,g=222,b=222]&gt; but was:&lt;java.awt.Color[r=1,g=3,b=30]&gt;
-	at game.operator.GameManagerTest.testDraw(GameManagerTest.java:200)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-</failure>
-  </testcase>
-  <testcase classname="game.operator.GameManagerTest" name="testGameExit" time="0.017" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow" time="0.031">
-    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
-	at game.operator.GameManagerTest.testLoadWindow(GameManagerTest.java:264)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-</failure>
-  </testcase>
-  <testcase classname="game.operator.GameManagerTest" name="testKeyPressed" time="0.016" />
-  <testcase classname="game.operator.GameManagerTest" name="testMouseClicked" time="0.015" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow0" time="0.029" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow1" time="0.032" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow2" time="0.056" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow3" time="0.046" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow4" time="0.069" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow5" time="0.042" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow6" time="0.035" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow7" time="0.021" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow8" time="0.023" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow9" time="0.021" />
-  <testcase classname="game.operator.GameManagerTest" name="testIsExit" time="0.012" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadReleased" time="0.039" />
-  <testcase classname="game.operator.GameManagerTest" name="testUpdate" time="0.013" />
-  <system-out><![CDATA[draw
-gameExit
-loadWindow
-keyPressed
+  <testcase classname="game.level.BreastTest" name="testMouseClickdCell" time="0.317" />
+  <testcase classname="game.level.BreastTest" name="testMouseClickdTool" time="0.044" />
+  <testcase classname="game.level.BreastTest" name="testDraw" time="0.055" />
+  <testcase classname="game.level.BreastTest" name="testKeyPressed" time="0.043" />
+  <testcase classname="game.level.BreastTest" name="testFinalize" time="0.033" />
+  <testcase classname="game.level.BreastTest" name="testResume" time="0.032" />
+  <testcase classname="game.level.BreastTest" name="testUpdate" time="0.03" />
+  <system-out><![CDATA[mouseClickd
 mouseClickd
-
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-isExit
-loadReleased
+draw
+keyPressed
+finalize
+resume
 update
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Dec 02, 2020 11:04:55 PM game.level.Breast finalize
+SEVERE: obj released as garbage
+Dec 02, 2020 11:04:55 PM game.level.Breast finalize
+SEVERE: obj released as garbage
+Dec 02, 2020 11:04:55 PM game.level.Breast finalize
+SEVERE: obj released as garbage
+Dec 02, 2020 11:04:55 PM game.level.Breast finalize
+SEVERE: obj released as garbage
+Dec 02, 2020 11:04:55 PM game.level.Breast finalize
+SEVERE: obj released as garbage
+Dec 02, 2020 11:04:55 PM game.level.Breast finalize
+SEVERE: obj released as garbage
+Dec 02, 2020 11:04:55 PM game.level.Breast finalize
+SEVERE: obj released as garbage
+]]></system-err>
 </testsuite>

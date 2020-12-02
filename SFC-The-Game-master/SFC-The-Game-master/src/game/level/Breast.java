@@ -36,24 +36,26 @@ public class Breast extends Window{
     private Image background,good_cell,cancer_cell_left,cancer_cell_right;
     
     private Square background_pos;
-    private MotionCell[] cell_status;
+    public MotionCell[] cell_status;
     
     //sound
     private Sound backSound,clickSound,errorSound,gameOverSound;
     private Sound cellSound,therapySound,timeOutSound,surgerySound; 
     
-    private Square[] tools;
+    public Square[] tools;
     private Image cellImg,chemoImg,radiationImg,surgeryImg,pendingCell;
     private String userName;
     private final Font toolsFont, numFont;
     private int userPoint,userCash,cell,chemo,radiation,surgery; 
     private int currentPoint,currentCash,selectedTool,cellCounter;
-    private boolean toolsClicked,cellClicked;
+    public boolean toolsClicked,cellClicked;
     //timer
     private long miliSec, pausedTime;
     private int counter;
     //gameOver detection 
-    private boolean running,paused;
+    public boolean running,paused;
+    public boolean drewfine = false;
+    public boolean isFinalized = false;
     
     public Breast(GameManager manager){
         this.manager = manager;
@@ -259,6 +261,7 @@ public class Breast extends Window{
             drawCells(graph);
             drawTools(graph);
             drawStatus(graph);
+            drewfine = true;
         }
         else{
             drawOverPage(graph);
@@ -290,6 +293,7 @@ public class Breast extends Window{
     @Override
     protected void finalize() {
         Logger.getLogger(getClass().getName()).log(Level.SEVERE,"obj released as garbage");
+        isFinalized = true;
     }
     
     //button and tools click 

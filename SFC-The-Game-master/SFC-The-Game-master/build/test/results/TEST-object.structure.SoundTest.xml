@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="2" hostname="DESKTOP-C3CVJL4" name="game.operator.GameManagerTest" skipped="0" tests="18" time="0.917" timestamp="2020-12-02T21:19:10">
+<testsuite errors="0" failures="0" hostname="DESKTOP-C3CVJL4" name="object.structure.SoundTest" skipped="0" tests="6" time="0.247" timestamp="2020-12-02T18:19:47">
   <properties>
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
     <property name="javac.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="java.specification.version" value="11" />
     <property name="libs.spring-framework500.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-aop-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-aspects-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-beans-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-context-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-context-indexer-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-context-support-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-core-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-expression-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-instrument-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-jcl-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-jdbc-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-jms-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-messaging-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-orm-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-oxm-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-test-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-tx-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-web-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-webflux-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-webmvc-5.2.2.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-5\spring-websocket-5.2.2.RELEASE.jar" />
     <property name="jar.index.metainf" value="false" />
-    <property name="libs.spring-framework400.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-aop-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-aspects-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-beans-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-context-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-context-support-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-core-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-expression-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-instrument-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-instrument-tomcat-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-jdbc-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-jms-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-messaging-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-orm-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-oxm-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-test-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-tx-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-web-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-webmvc-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-webmvc-portlet-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-websocket-4.3.25.RELEASE.jar" />
     <property name="libs.spring-webmvc4.0.javadoc" value="" />
+    <property name="libs.spring-framework400.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-aop-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-aspects-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-beans-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-context-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-context-support-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-core-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-expression-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-instrument-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-instrument-tomcat-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-jdbc-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-jms-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-messaging-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-orm-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-oxm-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-test-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-tx-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-web-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-webmvc-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-webmvc-portlet-4.3.25.RELEASE.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\spring-4\spring-websocket-4.3.25.RELEASE.jar" />
     <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="debug-transport" value="dt_shmem" />
     <property name="do.jlink" value="false" />
     <property name="libs.javaee-web-api-8.0.src" value="" />
     <property name="java.vendor.url" value="https://adoptopenjdk.net/" />
     <property name="debug.modulepath" value="" />
-    <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.eclipselink.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner game.operator.GameManagerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\results\TEST-game.operator.GameManagerTest.xml crashfile=E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\junitvmwatcher4210481882303448440.properties propsfile=E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\junit9283002634948316914.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner object.structure.SoundTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\results\TEST-object.structure.SoundTest.xml crashfile=E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\junitvmwatcher13056025797423938598.properties propsfile=E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\junit16542673443751706111.properties" />
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
@@ -31,8 +31,8 @@
     <property name="libs.javac-api.javadoc" value="" />
     <property name="libs.jsf20.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
-    <property name="libs.spring-framework500.javadoc" value="" />
     <property name="netbeans.default_userdir_root" value="C:\Users\Fartas\AppData\Roaming\NetBeans" />
+    <property name="libs.spring-framework500.javadoc" value="" />
     <property name="libs.jsp-compilation-syscp.src" value="" />
     <property name="jdk.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot" />
     <property name="java.runtime.version" value="11.0.9.1+1" />
@@ -41,21 +41,21 @@
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
     <property name="sun.java2d.noddraw" value="true" />
     <property name="sun.zip.disableMemoryMapping" value="true" />
-    <property name="jnidispatch.path" value="C:\Users\Fartas\AppData\Local\Temp\jna-2097132879\jna2459247584518594176.dll" />
     <property name="libs.maven-dependencies.maven-pom" value="" />
-    <property name="libs.jsf12.src" value="" />
+    <property name="jnidispatch.path" value="C:\Users\Fartas\AppData\Local\Temp\jna-2097132879\jna2459247584518594176.dll" />
     <property name="libs.primefaces.javadoc" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
+    <property name="libs.jsf12.src" value="" />
     <property name="libs.groovy-all.maven-pom" value="" />
-    <property name="java.vendor.version" value="AdoptOpenJDK" />
     <property name="libs.restapi.src" value="" />
+    <property name="java.vendor.version" value="AdoptOpenJDK" />
     <property name="libs.junit_5.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\platform\docs\junit-jupiter-api-5.6.0-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\docs\junit-jupiter-params-5.6.0-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\docs\junit-jupiter-engine-5.6.0-javadoc.jar" />
     <property name="dist.archive.excludes" value="" />
     <property name="java.io.tmpdir" value="C:\Users\Fartas\AppData\Local\Temp\" />
     <property name="java.version" value="11.0.9.1" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Fartas\AppData\Local\Microsoft\WindowsApps;C:\Users\Fartas\.dotnet\tools;;C:\Users\Fartas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Fartas\AppData\Roaming\npm;." />
     <property name="libs.hamcrest.src" value="" />
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Fartas\AppData\Local\Microsoft\WindowsApps;C:\Users\Fartas\.dotnet\tools;;C:\Users\Fartas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Fartas\AppData\Roaming\npm;." />
     <property name="java.vendor" value="AdoptOpenJDK" />
     <property name="libs.groovy-all.src" value="" />
     <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\platform\docs\testng-6.8.1-javadoc.zip" />
@@ -63,7 +63,7 @@
     <property name="compile.on.save" value="true" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="org.openide.version" value="deprecated" />
-    <property name="test.includes" value="game/operator/GameManagerTest.java" />
+    <property name="test.includes" value="object/structure/SoundTest.java" />
     <property name="ant.file.SFC-The_Game" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build.xml" />
     <property name="run.classpath" value=":build/classes" />
     <property name="libs.jaxb.src" value="" />
@@ -87,8 +87,8 @@
     <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
     <property name="have.sources" value="true" />
     <property name="annotation.processing.processors.list" value="" />
-    <property name="javac.deprecation" value="false" />
     <property name="jlink.launcher" value="false" />
+    <property name="javac.deprecation" value="false" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
     <property name="plugin.manager.check.updates" value="false" />
     <property name="netbeans.autoupdate.language" value="en" />
@@ -175,9 +175,9 @@
     <property name="junit.available" value="true" />
     <property name="javac.processormodulepath" value="" />
     <property name="javadoc.encoding" value="UTF-8" />
+    <property name="netbeans.hash.code" value="unique=NB_EXTIDE_JAVA_PHP_WEBCOMMON_WEBEE0455e5cd5-d3e7-4ae2-8f1d-6ed616002750_c04c69fc-aa54-4291-ab29-bbdce761f214" />
     <property name="libs.jstl.src" value="" />
     <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
-    <property name="netbeans.hash.code" value="unique=NB_EXTIDE_JAVA_PHP_WEBCOMMON_WEBEE0455e5cd5-d3e7-4ae2-8f1d-6ed616002750_c04c69fc-aa54-4291-ab29-bbdce761f214" />
     <property name="jlink.strip" value="false" />
     <property name="libs.spring-webmvc3.0.classpath" value="" />
     <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
@@ -187,15 +187,15 @@
     <property name="ant.core.lib" value="C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant.jar" />
     <property name="libs.jsp-compilation.maven-pom" value="" />
     <property name="javac.profile.cmd.line.arg" value="" />
-    <property name="application.title" value="SFC-The Game" />
     <property name="do.archive+main.class.available" value="true" />
+    <property name="application.title" value="SFC-The Game" />
     <property name="ignore.failing.tests" value="true" />
     <property name="javac.test.modulepath" value="" />
     <property name="libs.PostgreSQLDriver.javadoc" value="" />
     <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant-launcher.jar" />
     <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
-    <property name="javac.includesfile.binary" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\null1120705421" />
+    <property name="javac.includesfile.binary" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\null218745913" />
     <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.restapi.maven-pom" value="" />
@@ -219,10 +219,10 @@
     <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\ide\modules\ext\postgresql-42.2.10.jar" />
     <property name="libs.spring-webmvc3.0.javadoc" value="" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
-    <property name="user.script" value="" />
     <property name="manifest.encoding" value="UTF-8" />
-    <property name="libs.spring-framework400.src" value="" />
+    <property name="user.script" value="" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="libs.spring-framework400.src" value="" />
     <property name="project.licensePath" value="./nbproject/licenseheader.txt" />
     <property name="run.test.modulepath" value="" />
     <property name="libs.maven-dependencies.src" value="" />
@@ -246,8 +246,8 @@
     <property name="manifest.file" value="manifest.mf" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="libs.struts.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\struts-1.3.10-javadoc.zip" />
-    <property name="sun.desktop" value="windows" />
     <property name="default.javac.source" value="11" />
+    <property name="sun.desktop" value="windows" />
     <property name="libs.javaee-web-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\platform\core\asm-7.2.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\core\asm-commons-7.2.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\core\asm-tree-7.2.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\core\core-base.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\core\core.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans-12.0\netbeans\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans-12.0\netbeans\nb\core\locale\core_nb.jar" />
     <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar" />
@@ -255,9 +255,9 @@
     <property name="php.global.include.path" value="" />
     <property name="endorsed.classpath.cmd.line.arg" value="" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
-    <property name="os.name" value="Windows 10" />
-    <property name="libs.CopyLibs.maven-pom" value="" />
     <property name="build.sysclasspath" value="ignore" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="os.name" value="Windows 10" />
     <property name="jdkBug6558476" value="false" />
     <property name="javadoc.author" value="false" />
     <property name="http.nonProxyHosts" value="localhost|127.0.0.1|DESKTOP-C3CVJL4" />
@@ -268,8 +268,8 @@
     <property name="libs.javaee-api-7.0.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="ant.file.type.SFC-The_Game" value="file" />
     <property name="libs.spring-webmvc5.0.src" value="" />
-    <property name="libs.jsf20.maven-pom" value="" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.jsf20.maven-pom" value="" />
     <property name="libs.restlib.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\asm-all-repackaged-2.2.0-b21.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\cglib-2.2.0-b21.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\guava-14.0.1.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\hk2-api-2.2.0-b21.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\hk2-locator-2.2.0-b21.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\hk2-utils-2.2.0-b21.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\javax.annotation-api-1.2.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\javax.inject-2.2.0-b21.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\javax.servlet-api-3.0.1.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\jaxb-api-2.2.7.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\jersey-entity-filtering-2.5.1.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\jersey-media-moxy-2.5.1.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\org.osgi.core-4.2.0.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\osgi-resource-locator-1.0.1.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\persistence-api-1.0.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\ext\validation-api-1.1.0.Final.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\jersey-client.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\jersey-common.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\jersey-container-servlet.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\jersey-container-servlet-core.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jersey2\jersey-server.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.5.2.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-2.5.2.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.5.2.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.5.2.jar;C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.5.2.jar" />
     <property name="apple.awt.graphics.UseQuartz" value="true" />
     <property name="run.jvmargs" value="" />
@@ -293,16 +293,16 @@
     <property name="libs.primefaces.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\primefaces\primefaces-5.0.jar" />
     <property name="libs.jaxws21.maven-pom" value="" />
     <property name="run.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar" />
-    <property name="javadoc.encoding.used" value="UTF-8" />
     <property name="java.class.version" value="55.0" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
     <property name="src.dir" value="src" />
-    <property name="debug.classpath" value=":build/classes" />
     <property name="ant.project.default-target" value="default" />
+    <property name="debug.classpath" value=":build/classes" />
     <property name="excludes" value="" />
     <property name="libs.javaee-api-7.0.src" value="" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\platform\docs\junit-4.12-javadoc.jar" />
     <property name="run.test.jvmargs" value="" />
-    <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="libs.spring-webmvc4.0.src" value="" />
     <property name="ant.file.SFC-The_Game-impl" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\nbproject\build-impl.xml" />
     <property name="sun.java2d.dpiaware" value="true" />
@@ -312,7 +312,7 @@
     <property name="netbeans.autoupdate.version" value="1.23" />
     <property name="empty.dir" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\empty" />
     <property name="netbeans.user" value="C:\Users\Fartas\AppData\Roaming\NetBeans\12.0" />
-    <property name="javac.includes.binary" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes\game\operator\GameManagerTest.class" />
+    <property name="javac.includes.binary" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes\object\structure\SoundTest.class" />
     <property name="file.separator" value="\" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="javadoc.additionalparam" value="" />
@@ -336,22 +336,22 @@
     <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="ant.junit.enabletestlistenerevents" value="true" />
     <property name="libs.JWSAntTasks.src" value="" />
-    <property name="libs.spring-webmvc3.0.src" value="" />
     <property name="ant.home" value="C:\Program Files\NetBeans-12.0\netbeans\extide\ant" />
-    <property name="debug.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar" />
+    <property name="libs.spring-webmvc3.0.src" value="" />
     <property name="javac.external.vm" value="true" />
     <property name="have.tests" value="true" />
+    <property name="debug.test.classpath" value=":build/classes:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes:C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar" />
     <property name="testng.debug.mode" value="" />
     <property name="javac.target" value="1.8" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.4 compiled on June 19 2018" />
     <property name="libs.absolutelayout.maven-pom" value="" />
     <property name="jdk.gtk.version" value="2.2" />
     <property name="java.failonerror" value="true" />
-    <property name="javac.modulepath" value="" />
     <property name="libs.spring-framework500.src" value="" />
+    <property name="javac.modulepath" value="" />
     <property name="user.properties.file" value="C:\Users\Fartas\AppData\Roaming\NetBeans\12.0\build.properties" />
     <property name="libs.javaee-api-6.0.src" value="" />
-    <property name="javac.includes" value="game/operator/GameManagerTest.java" />
+    <property name="javac.includes" value="object/structure/SoundTest.java" />
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="java.class.path" value="E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\classes;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans-12.0\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;E:\Studijos\Testavimas\javaprojektas\SFC-The-Game-master\SFC-The-Game-master\build\test\classes;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-12.0\netbeans\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
@@ -379,13 +379,14 @@
     <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
     <property name="libs.spring-webmvc5.0.maven-pom" value="" />
     <property name="libs.junit_4.maven-pom" value="" />
-    <property name="runtime.encoding" value="UTF-8" />
     <property name="libs.jsp-compiler.maven-pom" value="" />
+    <property name="runtime.encoding" value="UTF-8" />
     <property name="javac.classpath" value="" />
     <property name="nb.junit.batch" value="true" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="libs.spring-framework300.maven-pom" value="" />
     <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="netbeans.automatic.build" value="true" />
     <property name="libs.jstl.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\modules\ext\jstl-api.jar" />
     <property name="ap.cmd.line.internal" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
@@ -398,64 +399,32 @@
     <property name="libs.eclipselink.src" value="" />
     <property name="java.vm.version" value="11.0.9.1+1" />
     <property name="libs.metro.javadoc" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-api-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-extra-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-extra-api-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-rt-javadoc.jar;C:\Program Files\NetBeans-12.0\netbeans\enterprise\docs\webservices-tools-javadoc.jar" />
-    <property name="test.class" value="game.operator.GameManagerTest" />
     <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="test.class" value="object.structure.SoundTest" />
     <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-12.0\netbeans\enterprise\ant\extra\jspcompile.jar" />
-    <property name="junit.forkmode" value="perTest" />
-    <property name="annotation.processing.run.all.processors" value="true" />
     <property name="libs.javaee-web-api-7.0.src" value="" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="junit.forkmode" value="perTest" />
   </properties>
-  <testcase classname="game.operator.GameManagerTest" name="testDraw" time="0.298">
-    <failure message="expected:&lt;java.awt.Color[r=222,g=222,b=222]&gt; but was:&lt;java.awt.Color[r=1,g=3,b=30]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;java.awt.Color[r=222,g=222,b=222]&gt; but was:&lt;java.awt.Color[r=1,g=3,b=30]&gt;
-	at game.operator.GameManagerTest.testDraw(GameManagerTest.java:200)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-</failure>
-  </testcase>
-  <testcase classname="game.operator.GameManagerTest" name="testGameExit" time="0.017" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow" time="0.031">
-    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
-	at game.operator.GameManagerTest.testLoadWindow(GameManagerTest.java:264)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-</failure>
-  </testcase>
-  <testcase classname="game.operator.GameManagerTest" name="testKeyPressed" time="0.016" />
-  <testcase classname="game.operator.GameManagerTest" name="testMouseClicked" time="0.015" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow0" time="0.029" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow1" time="0.032" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow2" time="0.056" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow3" time="0.046" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow4" time="0.069" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow5" time="0.042" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow6" time="0.035" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow7" time="0.021" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow8" time="0.023" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadWindow9" time="0.021" />
-  <testcase classname="game.operator.GameManagerTest" name="testIsExit" time="0.012" />
-  <testcase classname="game.operator.GameManagerTest" name="testLoadReleased" time="0.039" />
-  <testcase classname="game.operator.GameManagerTest" name="testUpdate" time="0.013" />
-  <system-out><![CDATA[draw
-gameExit
-loadWindow
-keyPressed
-mouseClickd
-
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-loadWindow
-isExit
-loadReleased
-update
+  <testcase classname="object.structure.SoundTest" name="testPause" time="0.093" />
+  <testcase classname="object.structure.SoundTest" name="testLoop" time="0.007" />
+  <testcase classname="object.structure.SoundTest" name="testPlay" time="0.035" />
+  <testcase classname="object.structure.SoundTest" name="testStop" time="0.005" />
+  <testcase classname="object.structure.SoundTest" name="testIsResumed" time="0.005" />
+  <testcase classname="object.structure.SoundTest" name="testResume" time="0.004" />
+  <system-out><![CDATA[pause
+com.sun.media.sound.DirectAudioDevice$DirectClip@4034c28c
+loop
+play
+com.sun.media.sound.DirectAudioDevice$DirectClip@78b1cc93
+stop
+com.sun.media.sound.DirectAudioDevice$DirectClip@21507a04
+isResumed
+com.sun.media.sound.DirectAudioDevice$DirectClip@6295d394
+com.sun.media.sound.DirectAudioDevice$DirectClip@6295d394
+com.sun.media.sound.DirectAudioDevice$DirectClip@6295d394
+resume
+com.sun.media.sound.DirectAudioDevice$DirectClip@657c8ad9
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

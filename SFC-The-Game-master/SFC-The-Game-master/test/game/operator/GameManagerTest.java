@@ -250,5 +250,5 @@ public class GameManagerTest {
         assertEquals(instance.exitClicked, result);
         
     }
-    
+
 }
