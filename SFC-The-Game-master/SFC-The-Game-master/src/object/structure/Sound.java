@@ -21,7 +21,8 @@ public class Sound {
      * 
      * @param clip Sound clip
      */
-    private volatile Clip clip;
+    public volatile Clip clip;
+    public boolean loop = false;
     public Sound(InputStream is){
         try {
             clip = AudioSystem.getClip();
@@ -52,6 +53,7 @@ public class Sound {
     }
     public synchronized void loop(){
         clip.loop(Clip.LOOP_CONTINUOUSLY);
+        loop = true;
     }
     public boolean isResumed(){
         if(clip.getMicrosecondPosition()>0)
