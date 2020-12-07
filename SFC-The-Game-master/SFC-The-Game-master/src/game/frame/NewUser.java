@@ -19,10 +19,11 @@ import object.structure.Sound;
  * @author rafiul islam
  */
 public class NewUser extends Window{
-    private String userName;
-    private final Square cancelBt,createBt;
+    public String userName;
+    public final Square cancelBt,createBt;
     private final Font textFont,btFont;
     private final Sound typingSound,errorSound;
+    public boolean isfinalized = false;
     
     public NewUser(GameManager manager){
         this.manager = manager;
@@ -146,6 +147,7 @@ public class NewUser extends Window{
     @Override
     protected void finalize(){
         Logger.getLogger(getClass().getName()).log(Level.SEVERE,"obj released as garbage");
+        isfinalized = true;
     }
     
     

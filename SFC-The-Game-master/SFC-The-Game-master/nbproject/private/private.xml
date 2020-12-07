@@ -3,12 +3,40 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/Studijos/Testavimas/javaprojektas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/Window.java</file>
-            <file>file:/E:/Studijos/Testavimas/javaprojektas/SFC-The-Game-master/SFC-The-Game-master/src/game/operator/Game.java</file>
-            <file>file:/E:/Studijos/Testavimas/javaprojektas/SFC-The-Game-master/SFC-The-Game-master/src/game/level/Blood.java</file>
-            <file>file:/E:/Studijos/Testavimas/javaprojektas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/Menu.java</file>
-            <file>file:/E:/Studijos/Testavimas/javaprojektas/SFC-The-Game-master/SFC-The-Game-master/test/game/level/BloodTest.java</file>
-            <file>file:/E:/Studijos/Testavimas/javaprojektas/SFC-The-Game-master/SFC-The-Game-master/src/game/operator/TheGame.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/level/BloodTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/operator/Game.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/level/LungTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/frame/NewUserTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/object/structure/MotionCell.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/frame/HowToPlayTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/Pause.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/level/Breast.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/object/structure/SquareTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/HowToPlay.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/Dashboard.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/Window.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/object/structure/CellTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/Menu.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/object/structure/MotionCellTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/frame/TrainingTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/frame/MenuTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/frame/DashboardTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/level/Lung.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/object/structure/Cell.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/operator/GamePanel.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/Opening.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/NewUser.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/object/structure/SoundTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/frame/OpeningTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/object/structure/Sound.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/object/structure/Square.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/level/BreastTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/operator/GameManager.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/level/Blood.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/operator/TheGame.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/operator/GameManagerTest.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/src/game/frame/Training.java</file>
+            <file>file:/C:/Users/Ugnius/Documents/GitHub/Testavimas/Testavimas/SFC-The-Game-master/SFC-The-Game-master/test/game/frame/PauseTest.java</file>
         </group>
     </open-files>
 </project-private>

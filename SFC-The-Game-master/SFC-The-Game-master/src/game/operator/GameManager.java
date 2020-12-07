@@ -36,6 +36,7 @@ public class GameManager {
     public int mousey = 0;
     public boolean keypressed = false;
     public boolean updateSent = false;
+    public boolean released = false;
     
     public GameManager() {
         exitClicked = false;
@@ -112,6 +113,7 @@ public class GameManager {
         currentWindow.resume();
         releasedWindow = temp;
         temp = null;
+        released = true;
         System.gc();
     }
     /**

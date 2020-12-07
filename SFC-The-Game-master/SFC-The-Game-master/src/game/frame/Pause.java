@@ -18,9 +18,10 @@ public class Pause extends Window{
     
     private static String[] options = {"Resume","Dashboard","Main Menu","Exit"};
     private Square[] options_pos;
-    private int now;
+    public int now;
     private Font font;
     private Sound selectionSound;
+    public boolean isfinalized = false;
     
     public Pause(GameManager manager){
         this.manager = manager;
@@ -102,5 +103,6 @@ public class Pause extends Window{
     @Override
     protected void finalize(){
         Logger.getLogger(getClass().getName()).log(Level.SEVERE,"obj released as garbage");
+        isfinalized = true;
     } 
 }

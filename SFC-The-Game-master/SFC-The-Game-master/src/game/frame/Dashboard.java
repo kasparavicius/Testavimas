@@ -42,12 +42,13 @@ public class Dashboard extends Window{
     private Font font,playBtFont,userInfoFont,usernameFont;
     private Random random;  
     private Square playButton;
-    private Square[] areasBt,toolBt;  
+    public Square[] areasBt,toolBt;  
     private int areaSelected;
-    private int userCash, userPoint;
+    public int userCash, userPoint;
     private int cell,radiation,chemo,surgery;
-    private String userName;
-    private String highScorer,highScore;
+    public String userName;
+    public String highScorer,highScore;
+    public boolean isfinalized = false;
 
     private Sound backSound,clickSound,errorSound;
     
@@ -276,6 +277,7 @@ public class Dashboard extends Window{
     @Override
     protected void finalize() {
         Logger.getLogger(getClass().getName()).log(Level.SEVERE,"obj released as garbage");
+        isfinalized = true;
     }
     
     //button clicked checker methods

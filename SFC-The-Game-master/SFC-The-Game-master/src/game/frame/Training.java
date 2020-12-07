@@ -29,8 +29,10 @@ public class Training extends Window{
     private boolean basicLoaded, areaLoaded;
     private Image anim,goodCell,cancerCell,pendingCell,chemo,radiation,surgery;
     private int selectY;
-    private int now;
+    public int now;
     private Sound selectionSound;
+    public boolean isfinalized = false;
+    public boolean componentdrawn = false;
     
     public Training(GameManager manager) {
         this.manager = manager;
@@ -165,6 +167,7 @@ public class Training extends Window{
         graph.drawString("Chemotherapy", 370, 275);
         graph.drawString("Radiation Therapy", 370, 355);
         graph.drawString("Surgery", 370, 435);
+        componentdrawn = true;
     }
     //override methods
     @Override
@@ -236,5 +239,6 @@ public class Training extends Window{
     @Override
     protected void finalize(){
         Logger.getLogger(getClass().getName()).log(Level.SEVERE,"obj released as garbage");
+        isfinalized = true;
     }
 }

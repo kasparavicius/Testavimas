@@ -30,7 +30,7 @@ public class Lung extends Window{
     
     //Cell 
     private Image good_cell,cancer_cell_left,cancer_cell_right;
-    private Cell[] cell_status;
+    public Cell[] cell_status;
     
     //game status
     private Image cellImg,chemoImg,radiationImg,surgeryImg,pendingCell;
@@ -47,12 +47,15 @@ public class Lung extends Window{
     private volatile int userPoint, userCash;
     //gameplay status
     private volatile int selectedTool,cellCounter,currentPoint,currentCash;
-    private boolean toolsClicked,cellClicked;
+    public boolean toolsClicked,cellClicked;
 //timer
     private long miliSec,pausedTime;
     private int counter;
     //game over detection
-    private boolean running,paused;
+    public boolean running,paused;
+    public boolean isFinalized = false;
+    public boolean drewfine = false;
+    public boolean updatedone = false;
     
     public Lung(GameManager manager){
         this.manager = manager;
@@ -255,6 +258,7 @@ public class Lung extends Window{
         if(!running || paused) return;
         timeCounter();
         objectiveFinish();
+        updatedone = true;
     }
 
     @Override
@@ -265,6 +269,7 @@ public class Lung extends Window{
             drawCells(graph);
             drawTools(graph);
             drawStatus(graph);
+            drewfine = true;
         }
         else{
             drawOverPage(graph);
@@ -299,6 +304,7 @@ public class Lung extends Window{
     @Override
     protected void finalize() {
         Logger.getLogger(getClass().getName()).log(Level.SEVERE,"obj released as garbage");
+        isFinalized = true;
     }
     
     

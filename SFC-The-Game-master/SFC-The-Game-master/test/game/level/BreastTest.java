@@ -78,7 +78,6 @@ public class BreastTest {
         instance.resume();
         assertNotEquals(true, instance.paused);
     }
-
     /**
      * Test of keyPressed method, of class Breast.
      */
