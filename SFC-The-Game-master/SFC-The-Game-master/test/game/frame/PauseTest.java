@@ -110,6 +110,7 @@ public class PauseTest {
         int key = 27;
         GameManager temp = new GameManager();
         Pause instance = new Pause(temp);
+        temp.loadWindow(6);
         instance.keyPressed(key);
         
         assertTrue(temp.released);

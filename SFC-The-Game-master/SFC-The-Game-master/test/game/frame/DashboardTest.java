@@ -76,6 +76,7 @@ public class DashboardTest {
         GameManager temp = new GameManager();
         Dashboard instance = new Dashboard(temp);
         Sound instances = new Sound(Game.class.getResourceAsStream("/sound/dashboard.wav"));
+        instances.play();
         instance.resume();
         assertTrue(instances.loop);
     }

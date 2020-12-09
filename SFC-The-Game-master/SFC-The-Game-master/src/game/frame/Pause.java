@@ -22,6 +22,7 @@ public class Pause extends Window{
     private Font font;
     private Sound selectionSound;
     public boolean isfinalized = false;
+    public boolean escaped = false;
     
     public Pause(GameManager manager){
         this.manager = manager;
@@ -92,6 +93,7 @@ public class Pause extends Window{
         }
         if(key == KeyEvent.VK_ESCAPE){
             manager.loadReleased();
+            escaped = true;
         }
     }
 

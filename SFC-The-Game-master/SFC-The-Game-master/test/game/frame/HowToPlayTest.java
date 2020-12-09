@@ -16,7 +16,8 @@ import static org.junit.Assert.*;
  * @author Ugnius
  */
 public class HowToPlayTest {
-    private GameManager manager;
+    GameManager temp;
+    HowToPlay instance;
     public HowToPlayTest() {
     }
     
@@ -30,6 +31,8 @@ public class HowToPlayTest {
     
     @Before
     public void setUp() {
+    temp = new GameManager();
+    instance = new HowToPlay(temp);
     }
     
     @After
@@ -53,7 +56,6 @@ public class HowToPlayTest {
         System.out.println("draw");
         BufferedImage screen = new BufferedImage(Game.WIDTH, Game.HEIGHT,BufferedImage.TYPE_INT_ARGB);
         Graphics2D graph = (Graphics2D )screen.getGraphics();   
-        HowToPlay instance = new HowToPlay(manager);
         instance.draw(graph);
         
         assertEquals(graph.getBackground(), Game.Colors.darkBlue);
@@ -75,8 +77,7 @@ public class HowToPlayTest {
     public void testKeyPressedBackspace() {
         System.out.println("keyPressed");
         int key = 8;
-        GameManager temp = new GameManager();
-        HowToPlay instance = new HowToPlay(temp);
+        temp.loadWindow(9);
         instance.keyPressed(key);
         
         assertTrue(temp.released); 
@@ -85,8 +86,7 @@ public class HowToPlayTest {
     public void testKeyPressedEsc() {
         System.out.println("keyPressed");
         int key = 27;
-        GameManager temp = new GameManager();
-        HowToPlay instance = new HowToPlay(temp);
+        temp.loadWindow(9);
         instance.keyPressed(key);
         
         assertTrue(temp.released);  

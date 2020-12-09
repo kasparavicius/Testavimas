@@ -9,29 +9,54 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import java.util.Arrays;
+import java.util.Collection;
+import org.junit.runners.Parameterized;
+import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
+import org.junit.runners.Parameterized.Parameter;
 
 /**
  *
  * @author Ugnius
  */
+@RunWith(Parameterized.class)
 public class NewUserTest {
-    private GameManager manager;
+    GameManager temp;
+    NewUser instance;
+    
+       @Parameterized.Parameters
+   public static Collection KeyPresses() {
+      return Arrays.asList(new Object[][] {
+         { 10, 2 },
+         { 6, 1 },
+         { 19, 1 },
+      });
+   }
+    @Parameter (value = 0)
+    public Integer inputNumber;
+    @Parameter (value = 1)
+    public int expectedResult;
     public NewUserTest() {
     }
     
     @BeforeClass
     public static void setUpClass() {
     }
-    
+    public void NewUserTest(Integer inputNumber, int expectedResult) {
+      this.inputNumber = inputNumber;
+      this.expectedResult = expectedResult;
+   }
     @AfterClass
     public static void tearDownClass() {
     }
     
     @Before
     public void setUp() {
+    temp = new GameManager();
+    instance = new NewUser(temp);
     }
-    
+   
     @After
     public void tearDown() {
     }
@@ -53,7 +78,6 @@ public class NewUserTest {
         System.out.println("draw");
         BufferedImage screen = new BufferedImage(Game.WIDTH, Game.HEIGHT,BufferedImage.TYPE_INT_ARGB);
         Graphics2D graph = (Graphics2D )screen.getGraphics();   
-        NewUser instance = new NewUser(manager);
         instance.draw(graph);
         
         assertEquals(graph.getBackground(), Game.Colors.darkBlue);
@@ -75,8 +99,6 @@ public class NewUserTest {
     public void testKeyPressedBackspace() {
         System.out.println("keyPressed");
         int key = 8;
-        GameManager temp = new GameManager();
-        NewUser instance = new NewUser(temp);
         
         instance.userName = "testas";
         int a = instance.userName.length();
@@ -84,14 +106,14 @@ public class NewUserTest {
         
         assertEquals(5, instance.userName.length());
     }
+    @Test
         public void testKeyPressedEnter() {
         System.out.println("keyPressed");
-        int key = 10;
-        GameManager temp = new GameManager();
-        NewUser instance = new NewUser(temp);
-        instance.keyPressed(key);
-        
-        assertEquals(2, temp.currentIndex);
+        temp.currentIndex = 1;
+        instance.userName = "testas";
+        instance.keyPressed(inputNumber);
+        System.out.println("Parameterized Number is : " + inputNumber);
+        assertEquals(expectedResult, temp.currentIndex);
     }
 
     /**
@@ -100,8 +122,6 @@ public class NewUserTest {
     @Test
     public void testMouseClickd() {
         System.out.println("mouseClickd");
-        GameManager temp = new GameManager();
-        NewUser instance = new NewUser(temp);
         int x = instance.cancelBt.getX();
         int y = instance.cancelBt.getY();
         instance.mouseClickd(x, y);
@@ -115,7 +135,6 @@ public class NewUserTest {
     @Test
     public void testFinalize() {
         System.out.println("finalize");
-        NewUser instance = new NewUser(manager);
         instance.finalize();
         // TODO review the generated test code and remove the default call to fail.
         assertTrue(instance.isfinalized);
